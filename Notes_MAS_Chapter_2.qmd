@@ -1,0 +1,62 @@
+---
+title: "Notes on Measurement Across the Sciences, Chapter 2"
+author: "Brad Venner"
+date: "7/16/2024"
+output: html_document
+---
+
+# 2.1 Introduction
+
+Extension of measurement to the "human" sciences parallels what Peirce called "psychics". The problem is biology - which side of the physics/psychics line does biology lie on?
+
+The book defines measurement in terms of "properties". Peirce would call these "qualities" and the relationship between objects and properties given in the form of a proposition. Unfortunately, the short article that Peirce wrote on metrology departs from some of his later semiotic work, so I'm not sure if he would agree with this mapping.
+
+They distinguish between words, concepts, and objects as "words", <words> and words, respectively. 
+
+# 2.2.1 Measurement as an empirical process 
+
+Their first "black box condition of measurement" is that it is an empirical process:
+
+> a process based on empirical interaction with an object and aimed at producing information on a property of that object in the form of values of that property.
+
+My immediate take is that "empirical interaction" is not sufficient. I would substitute "interaction with a measuring instrument" for "empirical interaction". This is one of the three main systems of measurement: a system under measurement, a measuring instrument system and an "interpreting system" that includes a system of units of measurement, measurement scales, legal metrology, etc. Restricting measuring instruments to technical systems focuses attention on the notion of reproducibility that is lost when human "detectors" are used. The word "observation" is available for such "empirical interactions". They quote the philosopher Mario Bunge for the distinction between observation, measurement and experiment. However, Bunge distinguishes that
+
+> measurement from observation based on the fact that it is quantitative observation, or the observation of quantitative properties. Experiment [is] the observation (and possibly measurement) of changes under our partial control. [@bunge:1983:understanding, (Bunge, 1983: 1991) 
+
+Mario Bunge was a Canadian-Argentinian philosopher-physicist. This quote is from his 6 volume systematic philosophy. His book *Emergence and Convergence: Qualitative Novelty and the Unity of Knowledge* looks interesting, although an Amazon review states that "ontologically, everything is either a system or a component of one," which seems to me that their notion of "system" only includes "tight morphisms". Anyway, I think that Mari uses Bunge as a foil.
+
+## 2.2.2 Measurement as a designed process
+
+> The second black-box condition of measurement is that it is a process *designed on purpose,* rather than a transformation that spontaneously happens. This has the consequence that measurement is performed according to specifications, called a *measurement proceedure*.
+
+This notion has a few flaws. While the notion of purpose has been central to *techne* since Aristotle, it does not follow that every purpose proceeds according to a written specification. From the biosemiotic view, purpose and life are coextensive, so a written specification could not be required. What about "designed"? Techne transcends strong categorical distinctions between "empirical" and "informational". Stjernfelt's notion of levels of semiotic self-control may be useful here. A written specification is a high-level control, a "stipulated law", and places measurement squarely within culture. The goal of a specification is for reproducibility. 
+
+Anyway, I agree with Mari that purpose is an extremely important aspect of measurement and deserves it's own category. Box 2.2, Why Measure, places measurement as a key component in information-enabled decision-making. However, this probably places too much emphasis on choice and some sort of "out" needs to be allowed. Lindey's use of an entropic loss function is a good example of allowing for "information for information's sake". Perhaps Dewey's notion of the goal of inquiry is sufficiently general - measurement is used in inquiry but typically does not contitute it. Mari claims that a measurement system is aimed at solving a measurement problem, and this has a Deweyian ring.
+
+## 2.2.3 Measurement as a process whose input is a property of an object
+
+This section references the SEP entry on (properties)[https://plato.stanford.edu/entries/properties/]. This looks like an interesting and detailed discussion of the problem. The entry does not distinguish between "property" and "relation", whereas my semiotically-informed understanding is that there are important differences between these two things, even though they are strongly related. At some point I need to try to defend the idea that functors (tight arrows) model properties and loose arrows model relations.
+
+In CST, objects are "potential interfaces" and follow the structural idea that the only way to know an object is through an interface. Then an interface is the collection of ways that an object can interact with it's environment.
+
+> an empirical property of an object &mdash; and thus more specifically an empirical quantity of an object &mdash; such as the length of a rod or the reading comprehension ability of an individual is associated with a mode of empirical interaction of the object with its environment. p. 33
+
+MAS distinguishes between "general properties" and "individual properties", where the former can be said of different objects, while the latter applies to a specific object. Peirce distinguished between these as "qualities" and "propositions". MAS distinguishes between "individual properties" and "properties fo a given object" which seems pedantic. Perhaps "individual properties" could be considered like the "spectrum" of a property, which can be distinguished from the general concept of the property. Compare this to a "type" that has possible "levels". One interpretation could be that "individual properties" are like function types, while a "property of a given object" would be evaluation of a function type for a specific object. 
+
+Peirce distinguished between "objects" and "properties" in Kaina Stoicheia, considering these as two different universes that nevertheless can be related. Icons would correspond to "general properties", a pure index would be an object and a proposition would correspond to "properties of a given object". The notion of a "spectrum" of an icon doesn't seem to fit these distinctions. Peirce talked about "redness" as a quality but not necessarily "color".
+
+Stjernfelt states that
+
+> dissociation is what permits the distinction between different independent qualities, such as "red" from "blue".
+
+so rather than "individual properties" we should speak of "dissociated properties". The notion of "individual" seems more like "precission", although it's not an exact match. Stjernfelt quotes Peirce:
+
+> But even in the very first passage in which abstraction occurs as a term of logic, two distinct meanings of it are given, the one the contemplation of a form apart from matter, as when we think of whiteness, and the other the thinking of a nature indifferenter, or without regard to the differences of its individuals, as when we think of a white thing, generally. The latter process is called, also, precision (or better, prescission): and it would greatly contribute to perspicuity of thought and expression if we were to return to the usage of the best scholastic doctors and designate it by that name exclusively, restricting abstraction to the former process by which we obtain notions corresponding to the “abstract nouns.” (CP 2.427, “Terminology” 1893).
+
+Peirce's distinction closely corresponds to the distinction between "general properties" and "individual properties", so perhaps a better terminology would be "abstract properties" and "precissed properties" (taking precissed to be the result of precission as "abstract" is the result of "abstraction").
+
+Aside. I couldn't remember how to spell "Kaina Stoicheia", so I searched for it using the first term and found a PDF version of *The Symbolic Species Evolved* [@deacon:2012:symbolic], a multi-authored volume revisiting Terrance Deacon's *The Symbolic Species*, which has been on my reading list for a while. Created a separate notes document for this book. The quote from Stjerfelt above are from his paper in this book.
+
+## 2.2.4 Measurement as property evaluation
+
+A previous paper by Mari distinguished between the more general "evaluation" and the more specific "measurement". All measurements are evaluations, but not all evaluations are measurements. The results of a measurement is a symbol, and this symbol exists within a "natural type" (as units of measurement are often considered). Rosen called this symbolic domain "formal", which allows for the relation between a material system (Rosen called it a "natural system", but this leaves out too much of the measurement domain) and a formal system to be "informational". My intuition is that this relationship could be modeled as a 2-cell and that this could captures the "lens-like" structure of a measurement.
