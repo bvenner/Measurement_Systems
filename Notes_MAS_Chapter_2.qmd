@@ -60,3 +60,32 @@ Aside. I couldn't remember how to spell "Kaina Stoicheia", so I searched for it 
 ## 2.2.4 Measurement as property evaluation
 
 A previous paper by Mari distinguished between the more general "evaluation" and the more specific "measurement". All measurements are evaluations, but not all evaluations are measurements. The results of a measurement is a symbol, and this symbol exists within a "natural type" (as units of measurement are often considered). Rosen called this symbolic domain "formal", which allows for the relation between a material system (Rosen called it a "natural system", but this leaves out too much of the measurement domain) and a formal system to be "informational". My intuition is that this relationship could be modeled as a 2-cell and that this could captures the "lens-like" structure of a measurement.
+
+If it is true that physical units are analagous to types, then a measurement result is a typed value. This usage implies that value is more restrictive than "symbol", as not every symbol is a value.
+
+This section links to Chapter 6 in the book.
+
+## Between the Empirical World and the Information World
+
+The diagram resembles Rosen's natural/formal division or Perice's matter/form distinction in "New Elements" (Kaina Stoicheia). 
+
+The high-level, functional structure of a *direct measurement* are given as
+
+1. Transduction
+2. Instrument scale application
+3. Calibration function computation
+
+Transduction is the material interaction between the property of an object with the measuring instrument. The result of this interaction is an "indication". I've previously called an "indication" a "signal" in the similar diagram I created. 
+
+Instrument scale application converts an "indication" into an "indication value". The first step in a contemporary measuring instrument is a digital-to-analog conversion. This distinction between "indications" and "indication values" is important
+
+Calibration function computation converts "indication values" to "property values". This use of "calibration function" unfortunately contradicts the IUPAC definition, since in chemistry "calibration functions" are maps from "properties under measurement" (typically prepared values) to indications. The inverse of this map is the "evaluation function". The notion of "functional inverse" here is too strong, and weaker versions such as a Bayesian inversion or even "general inverse" problems are required. 
+
+Distinguish between "intended property" for the measurand and "effective property" for the property that produces and effect on the measuring instrument. The difference between these is "definitional uncertainty" and can be thought of as a baseline uncertainty. Box 2.3 discusses how these can be different. These have resonance with the definition of "representative sample". They are
+
+1. Daily use
+2. Operational
+3. Statistical
+4. Analytical
+
+The "property of the universe or whole" is the "intended property". The "effective property" is the property of the sample. "Expected to exhibit the average" could be interpreted in any of these four ways. Daily use defines the measurand as "the property of the whole" and tolerates a large amount of definitional uncertainty. Operational is similar to the use of technology-based Appendix I methods (i.e. coliwasa). Statistical seems to be closest to the definition as it includes the term "average" but it's not clear from the definition what the distinction between "average property of the universe or whole" and simply "property of the universe or whole" would be. 
