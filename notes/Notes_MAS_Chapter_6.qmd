@@ -1,0 +1,38 @@
+---
+title: "Notes on Measurement Across the Sciences, Chapter 6"
+author: "Brad Venner"
+date: "8/15/2025"
+output: html_document
+---
+
+# Values, Scales, and the Existence of Properties
+
+## Introduction
+
+### Generalizing the Strategy of Definition of Reference Quantities
+
+One persistent theme throughout this book is that every "psychic" property is a property of individuals and "physical" property is a "simple" natural or technical system. So difficulties with measurement of "emergent" systems is not really considered. In particular, the focus on measuring the "results" of the education system, as individual achievements, neglects the "process" of the educational system. There's an implicit "methodological individualism" in the persistent example that excludes the measurement of "social systems" by default. 
+
+Gemini provides a nice list of approaches to measure emergent properties. points out "multi-level models" to link individual-level 
+
+A similar problem occurs with complex physical systems (whether natural or technical). An "emergent" property of a complex system has (by definition) a complex relationship with the parts of the system. But the parts by definition do not exhibit the emergent property. One approach could be to "black box" the system but this means that design for improvement would be ruled out in a technical system or to improve understanding of the relationship of parts and whole in a natural system. 
+
+Furthermore, there is some discussion of the "measurand" in earlier chapters but the role of "space" in defining "variable quantity" as discussed by Lawvere is distinctly absent.  
+
+## The Epistemic Role of Basic Evaluation Equations
+
+What does a basic evaluation equation mean if the codomain of the transformation is into a probability space?
+
+If "object" is a "space type" and "property" is a "quantity type", then Lawvere outlines how a "constant property" is a map from the terminal object in the "space type" to "something" in the quantity type. Space and quantity are related by a duality. This is a good candidate for a model of a "measurand". But in the semiotic measurement model, the "space-quantity" system interacts with a "measuring system" and the "indicator quantity" in the measuring system is mapped to an "interpretant." The interpretant includes a numerical system. The "space-quantity" aspect in the interpretant may be an "extensive quantity" (like a probability distribution) even if the measurand is an "intensive quantity" (like temperature).
+
+An aside. It would be good to work out in detail the relationship between heat and temperature as extensive and intensive quantities in Lawvere's framework. Gemini got my hopes up by refering to Lawvere's paper as a "book". Gemini states that intensive quantities are operators that "act" on intensive quantities. This is not everything that Lawvere states about the duality. The "action" of temperature on "heat capacity" gives "heat", where "heat capacity" and "heat" are both extensive properties. But the units of "heat capacity" are "energy/degree", which seems to contradict it's definition as an intensive property.
+
+This draws an interesting parallel to other "potential/actual" dualities, most prominantly "labor capacity" and "labor", but probably others as well.
+
+The Wikipedia entry on (intensive and extensive properties)[https://en.wikipedia.org/wiki/Intensive_and_extensive_properties] develops a couple interesting wrinkles to the general duality. One, a "composite" property that is a function of can be either extensive, intensive, or neither, depending upon the mathematical behavior of the "function" that maps the components to the composite property. Intensive properties are "homogeneous functions of degree 0 with respect" to the extensive properties in the system. Extensive properties are "homogeneous functions of degree 1". Then Euler's homgenous function theorem looks exactly like the measurement uncertainty relationship in GUM. So another link to the idea that measurement uncertainty is an extensive property of the system. 
+
+The Wikipedia article has a link to the article (Intensive and Extensive Properties)[@redlich:1969:intensive] by Otto Redlich that has a critical overview of this distinction. He points out that there are a large number of variables that are extensive but are not first-order homogenous functions. Redlich reviews the history of the concepts. Plank used the terms "external" and "internal" to distinguish quantities that Gibbs used when he discussed the phase rule. Tolman called these same quantities "extensive" and "intensive." Helm first used the terms "extensities" for generalized coordinates and "intensities" for generalized forces. These two meanings had gotten confused over time. The intrinic/extrinsic dimension depends on how the system is configured. The "coordinate/force" distinction is more fundamental. It seems like Lawvere's use is more in keeping with the latter usage.
+
+Wikipedia points out that "properties as extensive or intensive may depend on the way that subsystems are arranged," particularly when the subsystems interact when combined. They cite to Redlich's article above. 
+
+This may point to the need for a more general notion of "space" than considered by Lawvere. Does this mean that a "configuration space" for a complex system may not be dual to a "quantity space"? Or is it simply that "system properties" are not easily reducible to the extensive/intensive duality? Or is it that there are genuine emergent properties of a system that are not necessarily reducible to "simple" functions of the components? Is the idea that subsystems can interact the same thing as "non-linear thermodynamics"? Also, is the notion of "configuration space" related to one of Myer's principles of compositionality? If configurations are parameters, is this a "parameter passing" formalism? 

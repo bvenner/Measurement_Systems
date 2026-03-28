@@ -1,0 +1,46 @@
+---
+title: "Objects and Properties"
+author: "Brad Venner"
+date: "8/18/2025"
+output: html_document
+---
+
+One of the basic assumptions of metrology as developed in the VIM is
+
+> that there exist properties of given objects, where a property is either quantitative, like mass, or non-quantitative, like shape (VIM4, p. 4)
+
+This "everyday understanding" of objects and properties does not necessarily correspond to the classical understanding of substance, attribute, and relation. It is intended to be a "working" distinction without making strong claims about metaphysics. This usage seems to correspond what the Internet Encyclopedia of Philosophy calls the (third use of 'substance')[https://iep.utm.edu/substance/], defined as:
+
+> a substance is something that underlies the properties of an ordinary object and that must be combined with these properties for the object to exist. To avoid confusion, philosophers often substitute the word 'substratum' for 'substance' when it is used in this third sense. The elephant's substratum is what remains when you set aside its shape, size, color and all its other properties. 
+
+Because Mari defines a property as a mode of interaction with the world, the notion of an object devoid of properties is similar to a Kantian "thing-in-itself". IEP aligns Kant's critique as being similar to the British Empiricists.  Locke defines substance as:
+
+> We come to have the Ideas of particular sorts of Substances, by collecting such Combinations of simple Ideas, as are by Experience and Observation of Men’s Senses taken notice of to exist together, and are therefore supposed to flow from the particular internal Constitution, or unknown Essence of that Substance. (Essay, II.23.3)
+
+Mari claims that properties include both classically-defined attributes and relations.
+
+Peirce's development of the notion of proposition has some resemblance to the object-property duality. A proposition has two parts and is a carrier of fact. But a proposition is considered as a particular form of a sign where the "interpretant" is not specified in the sign-vehicle. The "object" of a sign is considerably more broad than the metrological definition and can consist of practically anything, but is distinguished from a "property" by the use of an index.   
+
+Lawvere's article "Categories of Space and Quantity" discusses modeling spaces as "distributive categories" and quantities as "linear categories". Lawvere's writing is highly suggestive but extremely frustrating. This paper should be considered a "classic" in "formal metrology".
+
+Spaces have
+
+> two main general conceptual features: first they serve as an arena for "becoming" (there are spaces of states as well as spaces of locations) and secondly they serve as domains for variable quantity.
+
+These two ideas both touch on the notion of substance. The "first" feature is reminiscent of potentiality where "becoming" the realization of actuality. The "second" feature is more like the notion of "object" discussed above, where "variable quantity" is a "property".
+
+Lawvere defines 
+
+>two kinds of variable quantity, the extensive and the intensive ... extensive quantities are "quantity of space" and the intensive quantities are "ratios" between extensive ones. For example, mass and volume are extensive (measures), while density is intensive (function).
+
+> a "type of extensive quantity" is a covariance coproduct-preserving functor from a distributive quantity to a linear quantity.
+
+Lawvere draws out the practical relevance of the properties of covariance and coproduct. The "terminal space" in the distributive category is mapped by the functor to "constant quantities of the given type." An object in the distributive category is mapped to a variable quantity over that object. Since every object has a unique map to the terminal object, the functor assigns the total as the constant quantity.
+
+This notion of the "object" being something like an index to a region of space-time is similar to Peirce's idea.
+
+Lawvere's discussion of intensive quantities seems considerably more opaque. Because of this, I did a forward search on SemanticScholar to see if anyone had expanded on this section. I did find Reyes et. al.''s paper on *Count nouns, mass nouns and their transformations: a unified category-theoretic semantics* as "highly influenced" by Lawvere's paper. The category of "count nouns" is modeled by $\mathcal{Set}$ and the category of "mass nouns" is modeled by the category of sup-lattices, which is a linear category. Reyes says that the functors between these categories are adjoint. I don't understand Lawvere's paper, but Anders Koch does model extensive quantities as commutative monads, which may be related to such an adjunction.
+
+Lawvere discusses the "action" of intensive quantities on extensive quantities that can result in another extensive quantity. The example is a "volume" extensive quantity multiplied by a "density" intensive quantity (mass/volume) to give another extensive quantity of "mass."
+
+The Nlab entry on (space and quantity)[https://ncatlab.org/nlab/show/space+and+quantity] emphasizes that there is an adjoint between the contravariant functors between a generalized "space" and a generalized "quantity." and cites it as a general instance of Isbell duality. Nlab has a separate entry for (intensive and extensive quantities)[https://ncatlab.org/nlab/show/intensive+or+extensive+quantity]. There is a certain parallel between this and the mass noun/count noun duality. 

@@ -1,0 +1,12 @@
+---
+title: "Modeling transduction"
+author: "Brad Venner"
+date: "3/10/2026"
+output: html_document
+---
+
+In the context of measurement science, transduction is the transformation of a more difficult to observe property into a form that can be observed and measured using a measuring instrument. For example, a thermometer (a measuring instrument) transduces the temperature of one substance (a measurand, a combination of object and property) into a change in the height (an observable property) of a liquid (a different substance) in a column. The change in substance is critical, as the first "substance" may not have the property of expansion that the second substance has. 
+
+A change in substance is not essential. In analytical chemistry, the measurand is often an "amount of substance". Whether this is a property is a subtle problem and points to difficulties with an object-property ontology. (It's tempting to use lithium as an example, since Peirce did). An atom is a system, with a defined boundary, and is composed of "components", which are also systems. But at some level, it is also an individual. Amount of substance understands a continuous body as a collection of typed individuals. In this manner, lithium is an example of a "natural kind" as defined by Reyes, who in a separate paper also defined an adjunction between mass nouns and count nouns. 
+
+One way around this connundrum is to define an "essential property". Thus, a "lithium atom" is an individual atom with the essential property of being a lithium atom. 

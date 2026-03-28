@@ -1,0 +1,129 @@
+---
+title: "Notes on Measurement Across the Sciences, Chapter 3"
+author: "Brad Venner"
+date: "5/16/2025"
+output: html_document
+---
+## 3.2 The Quality of Measurement and Its Results
+
+This section covers measurement quality in general and has specific discussions about measurement error and measurement uncertainty. These topics are discussed in more detail in Section 7 of the text, and touched on in Section 4 and 8. They introduce the complementary aspects of object-relatedness and subject-independence in Section 7.
+
+This style of the text of systematically unfolding concepts in measurement could be improved by examining examples of increasingly complex measurement systems. This is clearly a challenge in an inter-disciplinary text, but their use of the same two examples throughout the text doesn't fit the increasing refinement style of the book.
+
+On the other hand, I think it could be really interesting and rewarding to have a class that included both natural and human science students, and this fits the overall theme of the book.
+
+> ... two measurement processes implementing the same procedure on the same objects may produce different results.
+
+Possible reasons:
+
+1. the property of the object has changed,
+
+2. the "state" of the measuring instrument has changed,
+
+3. the "state" of the environment has changed.
+
+An "affecting property" is any property whose changes produce a change in the measured property. I think that in quantum measurement this is modeled by a change in "state" that leads to a change in an "observable". Note that the other two reasons are formulated as a change in state, while the change in the object is attributed to a property. Mari gives an example of the environment changing the measured property, but the interaction with measuring system can also cause a change, with quantum measurement and destructive measurement being two examples. (maybe a "disturbing measuring system" is the common root. It doesn't look like I have my quantum measurement references on ny work computer, but I will need to add some quantum measurement components to this course as this aspect is not covered by Mari.) 
+
+An "influence property" is, by symmetry, any property of the measuring system that can alter the behavior (i.e. the transduced property) of the measuring system. 
+
+Although Mari doesn't mention it here, the object may also have "influence properties" (e.g. carryover) that change the state of the measuring system. This interactive symmetry (i.e. that an interaction can change both the measured and measuring system) calls to mind "symbolic interactionism" in sociology (at least the vague understanding I have of Mead's work.) I'd like to understand the difference between late Dewey's "transactionalism", Mead's "symbolic interactionalism", Castoriadis' semiotics, and Peirce's semiotics.
+
+Mari identifies two basic strategies to deal with "influence properties," assuming that they can be identified.
+
+An *empirical* strategy tries to reduce the sensitivity of influence properties of the measuring system (Mari uses "instrument"). This would traditionally be called "robustness" in analytical chemistry. Taguchi would call it "parameter design". ICH places robustness a bridge phase between development and validation and assumes that robustness has been addressed prior to validation. This is a little different from traditional approaches to robustness, which makes this part of validation. 
+
+Thinking about Taguchi, it would be interesting to compare the use of Lindley's entropy loss function to Taguchi's quadratic loss function in the measurement context. 
+
+An *informational* strategy tries to model, evaluate, and formally express influence properties and then provide an evaluation of the "quality" of the measurement result.
+
+My sense is expressing this as a duality is incorrect, as estimates of measurement quality depend upon empirical "experiments." I would argue that the "top-down" and "bottom-up" distinction is similar to this empirical/informational distinction, but expressed in terms of the "measurement model", with top-down models being more statistical and bottom-up models being more physical, perhaps with some future "digital twin" model capturing both aspects.
+
+### A sketch of the framework
+
+Mari develops the framework to think about the related notions of measurement error and measurement uncertainty.
+
+> Measurement is essentially a production process, the product being numbers. (Speitel, 1992)
+
+> as such, the quality of the products and the quality of the process are in principle distinct (though plausibly related), and as such they each deserve some consideration. [p. 52]
+
+ISO 17025 distinguishes these as "methods" and "results" (i.e. validation of methods and validation of results). The "plausible relation" between these concepts is expressed in the measurement uncertainty.
+
+ISO 17025 does not really include the distinction between "measurement process" and "measurement procedure". However, VIM4 essentially defines *measurement* as *measurement process*: 
+
+> a process of experimentally obtaining one or more values that can reasonably be attributed to a quantity together with any other relevant information [VIM4, 2.1]
+
+Note 5 to this definition requires for reasonable attribution "the intended use of a measurement result" (i.e. purpose), a "measurement procedure" (whose definition includes a measurement model) and a "measuring system". 
+
+Aside: Mari distinguishes between terms enclosed in double quotes and concepts identified in angle brackets, which he says is standard in ISO documents. These angle brackets must be escaped in Markdown with a backslash. One possibility would be to build an explicit glossary using the Quarto extension [quarto-glossary](https://debruine.github.io/quarto-glossary/). For the purposes of these notes, I'll stick with the escaped angle brackets as by the time I publish them there may be a new approach that I can change via a regexp/macro. 
+
+> Such a transformation is modeled as an empirical transduction function, whose informational inverse is the instrument calibration function, which maps values of the instrument indication to values of the measurand. [p. 53]
+
+IUPAC calls these "calibration" and "evaluation". Mari's definition is better as it can reserve "evaluation" for the process of assigning symbols to signals in general, with measurement being an evaluation with additional structure.
+
+Parameters that characterize the "measuring system":
+
+* sensitivity - distinct inputs produce distinct outputs
+
+* selectivity - spurious inputs do not produce distinct outputs
+
+* stability - similar inputs at different times produce similar outputs
+
+* resolution - how well are distinct inputs distinguished by distinct outputs
+
+* discrimination threshold - in VIM, Mari doesn't discuss
+
+* dead band - in VIM, Mari doesn't discuss
+
+For some reason Mari defines selectivity and stability as the inverse of the definition of the derivative. But then they state that "the lower the selectivity, the better the instrument" and "the greater the stability, the better the instrument". I don't see how both of these can be true.
+
+### The error approach & the uncertainty approach
+
+I'm not taking many notes here as this is well-trodden territory for me.
+
+### Basic components of measurement uncertainty
+
+Five components of uncertainty are defined. I wonder if I should include this in my measurement uncertainty procedure (perhaps as an appendix?) After finishing this section, I think not, as there is too much overlap between the concepts.
+
+* measurand definitional uncertainty
+
+> A classic example of definitional uncertainty from the physical sciences comes from the measurement of temperature: by defining the measurand as the temperature of a given body, the body itself is (implicitly) modeled as thermally homogeneous, and actual differences of temperature between parts of the body contribute to definitional uncertainty [p. 64]
+
+Mari previously said that inference to a population was a statistical problem, but here he implies that is could also be a definitional problem. Perhaps they meant to distinguish "mass statistics" from "count statistics" but there is a fair amount of overlap. 
+
+* unit definitional uncertainty
+
+Does not mention how the mole is not subject to unit definitional uncertainty, since the qualitative identity of the "atom" is subject to a fair amount of uncertainty, both in it's qualitative property and in it's assumption of atomicism.
+
+* calibration uncertainty
+
+They mention calibration drift but not the more general issue of "preparation" of a calibration standard. Some of this could be definitional uncertainty and some calibration uncertainty. This point is not discussed.
+
+* interaction uncertainty
+
+This is defined in terms of the process of measurement changing the measured property. 
+
+### Measurement uncertainty and measurement results
+
+> measurement uncertainty is a quantity associated with measurement results and inversely related to the quality of the information they convey
+
+This reminds me that a worthwhile project would be to consider measurement uncertainty within the context of Markov categories. 
+
+## The operational context
+
+Considers that the interaction between "the system under measurement" and the "measuring system" occurs within a measurement environment and that the "quantity unit" is obtained from a "metrological system".
+
+### The metrological system
+
+> values operate as mediators for the comparison of quantities of objects. [p. 71]
+
+> the widespread availability of the unit needs then to be somehow guaranteed. [p. 71]
+
+They reduce the social problem to relations between things, and conclude that the current metrological system is optimum. Given that Mari wrote a paper on relational measurement, this is a very brief excursion into the problem of standards. Given the central status of this issue in Marx, any extension of this framework to accounting measurement must consider the metrological system more closely (although I don't have good ideas right now).  
+
+### The measurement environment
+
+No notes
+
+## The conceptual context
+
+Distinguishes between a "model of the measurand" and a "model of a measurement". No other notes.

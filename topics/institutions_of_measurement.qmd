@@ -1,0 +1,66 @@
+---
+title: "Institutions of measurement"
+author: "Brad Venner"
+date: "9/26/2025"
+output: html_document
+---
+
+The term "legal metrology" is used to describe the international system of metrological institutions for physical measurement. 
+
+In Mari's philosophy of measurement, subject-independence is one of the main requirements for an evaluation system to be a measurement system. But the institutional design of the legal metrology system can not simply be extended into the psychosocial domain. While there is some discussion in the book around the realization of the "hexagonal framework" for an educational measurement, this discussion primarily focused around how the measurand of reading comprehension could be realized in a measuring instrument. But the questions of institutional analysis and design for the more general realization of "inter-subjectivity" was not addressed.
+
+One reason might be the great difficulty in solving this problem in general. Legal physical metrology evolved over centuries and was the result of both conscious design and cultural evolution. Authoritarian movements have drawn upon the idea of "post-truth" as the basis for propaganda that any social involvement results in a relativism that cannot be overcome. The measurement problem in quantum mechanics seems to imply an irreducible component of subjectivity in measurement that calls into question whether any amount of inter-subjectivity can ever be realized in practice. The subjective/objective split in probability complicates the ability to express measurement results as inter-subjective, since a theory of probability that would support measurement's inter-subjective role is not widely accepted.
+
+Although the MATS book does not cover this issue in great detail, Mari's papers on the relational theory of measurement have a similar "spirit" to relational quantum mechanics. In turn, there is an overlap in tone with "relational sociology" and the relational turn. Finally, Rosen's work on the foundations of measurement was cited by Capucci as the first work on categorical systems theory and his work on "relational biology" could be important in implementing the relational turn.
+
+Can this loose network of ideas be the basis for a practical approach to measurement institution analysis and design? In particular, can pressing issues around economic democracy be informed by improvement in the institutions that "measure" value? 
+
+At present, my intuition is that expanding the semiotic measurement framework to include measurement institutions is a good direction. There is some work on the relationship between semiotics and institutionalism called "semiotic institutionalism". Specializing this to measurement institutions could help narrow the ambit, but the problem is still very broad. 
+
+## Institutionalism and social theory
+
+Both sociology and political science have taken up the concept of institutionalism from economics. The "old institutionalism" looked at historical development of institutions, in keeping with Veblen's emphasis on evolution, which included political institutions. In the "new institutionalism" there is an explicit development of a "sociological institutionalism". What is the relationship between this school and "relational sociology".
+
+Castoriadis implicitly critiques Parson's notion of institution as functionalism, as pointed out by Joas. This critique brings in semiological notions, but Castoriadis' own theory of signification seems to have much in common with Peirce. Can Joas' work on the creative theory of social action help understand Castoriadis? (it's hard to stay motivated to read Joas, whereas Castoriadis is often quite entertaining). Since Joas moves into careful analyses of "value processes" in his later work, it could be helpful to really understand his social theory. A review of *The Power of the Sacred* pointed out that Joas includes Peirce in his analysis for the first time, so perhaps I should read Mead?
+
+Frega also develops social theory, in particular his social ontology. Frega stresses the need to consider that institutions are founded upon a more refined notion of "bare interactionism" and that habits are formed as the result of interactions. I believe that Dewey called bare interactions "associations". 
+
+## Value and measurement
+
+In economics, the strong distinction between value in measurement theory (i.e. evaluation of a property) and value in ethics (what are the ends of human action) must break down. Although it's possible to envision an economics without symbolic evaluation, price plays a crucial role in contemporary economics. In MATS, the question of value is about what price is measuring, or is there a property of an object for which price is the value of the property? Calling this property *value* runs into terminological confusion, so any detailed treatment of the economic measurement problem should probably use another term for this "empirical entity" distinct from the "informational entity" of price. Furthermore, since an economic transaction includes at least a virtual exchange of commodities, the notion of price is grounded in the exchange process. Since every commodity is the product of labor, the "empirical entity" must also refer to the production process. I wonder if Marx was influenced by "measure theory" in his theory of value and to what extent a more modern treatment of measurement would help clear up some residual mysticism.
+
+Since accounting is the basic science of economic measurement, measurement of value should refer to this body of knowledge. I've had a long-term interest in expressing the REA accounting ontology within a double categorical framework. It would also be interesting to relate REA to Frega's social ontology and Mari's measurement ontology. Could lifting these ontologies to categories help reconcile them? What would be learned by such a reconciliation?
+
+## Formal languages in institutional analysis and design
+
+## Semiotics, pragmatism and institutions
+
+Kemple asserts that the definition of the sign in the Latin age was meant to transcend the division between physis and nomos (φυσις/νομος) that still serves as the foundation of dualisms today. Kemple translates these terms as nature and culture - these may be the appropriate Latin-derived terms from the Greek duality. It's echos can be found in the dualism between structure and agency in sociology. Ideally, institutionalism transcends the latter duality in that invariant structures are modeled as being subject to change through agents. 
+
+There are explicitly developed frameworks for both semiotic and pragmatic institutionalism.
+
+Heiskala develops a "semiotic institutionalism" as a proposed synthesis between structure-functionalism and other institutionalist strands. He refers to W. Richard Scott's book *Institutions and Organizations* as a broad overview of institutionalism. I wish I had taken better notes when I was considering reading this book. He considers pragmatist, phenomenological and semiotic institutionalism as three subtypes of what Scott called "cultural-cognitive institutionalism". He classifies Parson's AGIL system as Scott's "normative institutionalism" and economic institutionalism as Scott's "regulative institutionalism".
+
+Heiskala identifies "pragmatist insitutionalism" with "old institutionalism" originating with Veblen and including John Commons. 
+
+> [i]nstitutionalization occurs whenever there is reciprocal typification
+of habitualized actions by types of actors. Put differently, any such
+typification is an institution (Berger and Luckmann, from their book *Social Construction of Reality*, 1966)
+
+This reminds me of behavioral types in computer science. There is a reference to "actor types", or roles, which are the projection of a behavioral type to the behavior of an agent. The "linear" aspects of behavior types are the monoidal aspects of this interaction, where the behavior may not be a cartesian projection.
+
+> Moreover, Berger and Luckmann’s approach to institutions is supplemented by an analysis of socialization, presenting it as a local process which creates different habits for different persons.
+
+Echos of Castoriadis' analysis of the relationship between the social and the institutional. Institutional roles are only imperfectly filled by actual agents.
+
+Heiskala seems to focus on the "socially constructed" aspects of semiotics, i.e. semiology. Their discussion of economics places this "subsystem" entirely within the socially constructed form of money. But this neglects the natural aspects of economics, that nature and humans co-produce use-value. 
+
+The governance of the social labor process does not mean that the labor process has been severed from the natural. Even the most artifical aspects of culture still must have a material grounding. 
+
+The material reproduction of society is truly invariant, since no society that has failed this task continued as a society. There was a labor process even with hunter-gatherers. Although the natural production process predominates, there is much skill in wrangling nature to provide for a society. Although this may not be "economics" as a separate sphere, it can be distinguished as the most basic realm of need. As Catoriadis and Graeber emphasis, the domain of need, of use-value, is also social and that what constitutes a need is profoundly cultural.
+
+Any formal language for simulating society must be at least as complex as the most advanced game engines.
+
+Definitely an underwhelming paper. It's possible that his book is better. I agree with a lot of the general ideas but wouldn't want to go forth under this banner. I did like the references to Joas and Kilpinen as the domain of "pragmatist institutionalism" is more well founded. Since Peirce saw no conflict between semiotics and pragmatism, it should be possible to develop the semiotic aspects of "pragmatic institutionalism" without needing to develop a whole new field.
+
+It's relatively easy to critique integrative frameworks developed before the true rise of the internet as a research tool. This paper is 18 years old and was probably written well before it was published. The possibilities afforded by the development of informational technology to develop a "semiotic technology" are profound and I get no credit for working at this moment.  

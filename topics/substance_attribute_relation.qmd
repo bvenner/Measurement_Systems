@@ -1,0 +1,14 @@
+---
+title: "Fibrations as a model of the empirical-informational relationship"
+author: "Brad Venner"
+date: "8/15/2025"
+output: html_document
+---
+
+A key part of Mari's "measurement ontology" is the central role of the notions of empirical and informational domains of measurement. As mentioned in the notes, there is a close relationship between these concepts and Rosen's understanding of natural and formal systems. Is there a similar close relationship between Mari's "measurement relation" and Rosen's "modeling relation"? Measurement models are a special class of models but it makes sense that the two notions are related.
+
+Bart Jacobs' book *Categorical Logic and Type Theory* [@jacobs:1999:categorical] develops the relationship between type theory and logic through the notion of fibration. Jacobs develops a whole "zoo" of logics, unified through the notion of fibration. 
+
+The notion of fibration seems like it could be well suited to model the empirical/informational relationship. Since this general notion of fibration can contain a wide variety of "logics," it may have the requisite breadth to encompass the variety of "measurement models".
+
+An important class of fibrations are the double categorical "equipments". 

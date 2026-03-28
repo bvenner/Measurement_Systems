@@ -1,0 +1,45 @@
+---
+title: "Notes on Measurement Across the Sciences, Chapter 4"
+author: "Brad Venner"
+date: "8/5/2025"
+output: html_document
+---
+
+# Philosophical perspectives on measurement
+
+## Introduction
+
+> what is it about an activity being a measurement that secures the quality of its results? Can an answer be given independently of consideration of the particular area of application? 
+
+GenAI has a very boring answer to this question.
+
+Later in the chapter is the claim that the basic philosophical problem of measurement is 
+
+>what distinguishes measurement from generic evaluation?
+
+### Measurement between objectivity and subjectivity
+
+Their list of measurable properties of human beings is clearly individual, even though they use the term "psychosocial" (too afraid to use Peirce's term *psychics*?)
+
+## Characterizing measurement
+
+I should be able to write a "pragmatic realist perspective on measurement" given my lifelong study of this subject. Would be good to do this before I get to Mari's proposed definition of "model-based realism"
+
+### Naive realist perspectives on measurement
+
+### Operationalist perspectives on measurement
+
+### Representationalist perspectives on measurement
+
+## The concept of validity in psychosocial measurement
+
+Explores the literature on validity within the psychosocial literature. There is a relationship between this concept and accuracy.
+
+To what extent is there an overlap between this concept of validity and those in the systems literature and in analytical chemistry? The latter seems somewhat close to the former; could there be a common ancestor?
+
+## Model-dependent realism
+
+Putnam's definition of pragmatic realism posits a "many-to-many" relationship between the world and concepts:
+
+> seeing is always seeing as, and it is the interface between the world and the rich fabric of our concepts that jointly determines what we see [p. 113, from Putnam, 2000, p 20]
+

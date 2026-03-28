@@ -1,0 +1,37 @@
+---
+title: "Fibrations as a model of the empirical-informational relationship"
+author: "Brad Venner"
+date: "8/15/2025"
+output: html_document
+---
+
+A key part of Mari's "measurement ontology" is the central role of the notions of empirical and informational domains of measurement. As mentioned in the notes, there is a close relationship between these concepts and Rosen's understanding of natural and formal systems. Is there a similar close relationship between Mari's "measurement relation" and Rosen's "modeling relation"? Measurement models are a special class of models but it makes sense that the two notions are related.
+
+Bart Jacobs' book *Categorical Logic and Type Theory* [@jacobs:1999:categorical] develops the relationship between type theory and logic through the notion of fibration. Jacobs develops a whole "zoo" of logics, unified through the notion of fibration. 
+
+The notion of fibration seems like it could be well suited to model the empirical/informational relationship. Since this general notion of fibration can contain a wide variety of "logics," it may have the requisite breadth to encompass the variety of "measurement models".
+
+An important class of fibrations are the double categorical "equipments". 
+
+Uemura states that
+
+> Presheaves are known to be equivalent to *discrete fibrations*
+
+in this thesis *Abstract and Concrete Type Theories*. 
+
+Can this be dualized? Are copresheaves equivalent to *codiscrete opfibrations?*
+
+Lawvere defined presheaves as generalized spaces and copresheaves as generalized quantities. This means that space is dual to quantity. This relies upon the notion of an object in the category being a "test object", generically called U. The presheaf $X:\mathrm{C^{op}} \rightarrow \mathrm{Set}$ maps the test object $U:C$ to the set of 'allowed maps' from U into the 'would-be' space X. (This may have something to do with a "representable presheaf"). 
+
+
+ thesis relies heavily on the concept of *representable*. The thesis does not treat substructural logics and possibly not modal logics but does treat dependent types.
+
+There is a fair amount of Nlab material around the relationship between internal presheaves, internal profunctors and discrete fibrations. Presheaves are special cases of profunctors when one of the legs is the "terminal category". It appears defining an "internal profunctor" requires the bicategory Span(Set) rather than merely Set.
+
+Discrete fibrations and presheaves are closely related. Profunctors include presheaves and copresheaves as special cases. From (MathOverflow)[https://mathoverflow.net/questions/415363/objects-whose-representable-presheaf-is-a-fibration], presheaves are equivalent to discrete fibrations via the category of elements construction.
+
+The Nlab page on (category of elements)[https://ncatlab.org/nlab/show/category+of+elements] says that the category of elements construction is like "exploding" a function between two sets into a collection of functions between elements. This looks similar (and is probably the same construction) of transforming between relational and graph representations. This is a special case of the Grothendieck construction specialized to $\mathrm{Set}$ as the codomain.
+
+It would be nice to better understand the sequence vector bundle $\rightarrow$ fiber bundle $\rightarrow$ fibration.
+
+Jacobs considers the relationship between a type theory and a logic as a logic fibered over a type theory. This relationship can also be considered as a double category with types and terms being tight morphisms and propositions and inference being loose morphisms. Nasu develops "fibrational virtual double type theory" and  

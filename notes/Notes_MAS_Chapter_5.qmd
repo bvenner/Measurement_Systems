@@ -1,0 +1,84 @@
+---
+title: "Notes on Measurement Across the Sciences, Chapter 5"
+author: "Brad Venner"
+date: "8/7/2025"
+output: html_document
+---
+# What is measured?
+
+The goal of the chapter is develop "an ontology and an epistemology of properties". The "Basic Evaluation Equation" property of a given object = value of a property is 
+
+> interpreted as a claim of an actual referential equality, which conveys information on the measurand because the measurand and the measured value remain conceptually distinct entities.
+
+## Introduction
+
+The ontological question of "what are properties" is deeply intertwined with the epistemological question of "what can we know about properties".
+
+> An empirical property of an object is associated with *a mode of empirical interaction of the object with its environment.* 
+
+This is similar to Myer's notion of an object in categorical system as something like a collection of interfaces. This ontology already assumes the triadic distinction (system, interface, environment) so in some ways the notion of "attribute" may already be assumed.
+
+It seems like the logical interpretation of double categories would make objects something more like types, and elements of a type as morphisms from 1 to the object. This fit's with Peirce's notion that indexes are "special." If types are categories, then they can have internal structure. This structure may be necessary to describe the behavior of a property, which can have some algebraic structure.  
+
+The "logical" and "system" interpretations of double categories will be important for me to reconcile, as measurement requires both empirical (natural) and logical (formal) systems.
+
+I am tempted to align "attributes" with "tight" morphisms and "relations" with "loose" morphisms in a double category.
+
+Peirce had the notion of "spots" on an "object" in his existential graphs that have a similar type of interpretation. This notion of an object hidden behind it's interfaces could be given a Kantian type of interpretation as a "thing in itself."
+
+### The possible meanings of the basic evaluation equation
+
+This chapter introduces several diagrams that have a categorical-type interpretation. These are not developed with category theory. They are also probably too limited to capture essential parts of measurement. 
+
+For example, in this section the analysis of the "basic evaluation equation" posits the relationship between two total orders that are related by a "fibrational" type connection. This is interesting, and I developed a similar diagram for my presentation to the laboratory. The connections between the empirical and information systems are evaluation and realization. Since realizations are "technical", "empirical" is a better term than Rosen's term "natural." "Formal" and "informational"
+
+However, greater mathematical generalization seems necessary to capture even the most basic physical measurement. For example, the type of the formal system would at least need to be a strict symmetric monoidal category (aka a commutative quantale) to account for the monoidal relationship represented by the unit. Chemical measurement includes complex domains (i.e. the simplex) and codomains (2 dimensional for single-hypenated techniques). Furthermore, the type of the "measuring system" can be quite complex and this is not considered in the formal equivalence.
+
+### Anticipating the main outcomes
+
+This section introduces four interrelated but distinct "kinds of entities":
+
+1. general property
+2. individual property
+3. properties of given objects
+4. values of the property
+
+The relationship between general and individual properties was presented in Chapter 2. If a general property is a type $A$, then an individual property would be an element of the type, or a map from $1 \rightarrow A$, or $a:A$ as written in type theory. But this is different than saying an individual object has an element of a property, even though they have similar diagrams.
+
+One solution would be Lambert's KR system in double categories of relations. Their first example of "niches", as cells that arise as a "restriction" on individuals in two related types, seems to solve this problem.
+
+```{=typst}
+#import "@preview/fletcher:0.5.9" as fletcher: diagram, node, edge
+
+#diagram(cell-size: 15mm, $
+    1 edge("d",o,->) edge("o has mass a","-|->") &  1 edge("d",a,->) \
+    O edge("mass","-|->") & A
+$)
+```
+
+In the double category of relations, proarrows are propositions and cells are inferences. So we have a type of objects, a type of masses and the proarrow between them can be understood as a subject-attribute relation. So one possible map to in Mari's ontology would be:
+1. a "general property" is a type
+2. an "individual property" is a term
+3. "properties of given objects" are propositions (loose arrows)
+4. "an individual object has an individual property" are "judgements or implications"
+
+This expands Mari's ontology to include the objects that have properties, which are also types. Then there are relations between types (proarrows) and functions between types (terms).
+
+Lambert cites Bart Jacob's book *Categorical logic and type theory* [@jacobs:1999:categorical] that DCR's are an example of a logic fibered over a type theory. This basic idea is intriguing as "type theory" is in the computational domain and "logic" is in the logical domain. There is an "iconic" relation between this idea and the empirical/informational domain in measurement theory. 
+
+But Numbers 3 and 4 are different from Mari's interpretation. In Mari, Number 3 is the empirical measuring operation and Number 4 is the informational representation of this operation. So it seems like there needs to be some notion of map between the "property" representation and the numerical representation, where the map would be the formal representation of the "measuring system".
+
+One solution is to use the cell shown above as what Mari calls an individual property. The double category of relations expands the notion of "individual property" to more explicitly indicate the object under measurement as well as the attribute. There are both empirical and informational individual properties.
+
+Then one possibility is that both empirical and informational entities exist in the same double category. Then the notion of composition of cells could be used to represent the "basic evaluation equation". But would this require placing the proposition as the boundary object between the "individual property" cells?
+
+Applied category theory is hard. It seems like someone should have already done this work. 
+
+Jacobs by way of Gemini says that for every object in the base category there is a corresponding fiber category. Objects in the fiber category are propositions that can be formed over that type. Morphisms in the fiber category represent proofs between propositions. Morphisms (terms) in the base category map to functors between fiber categories. 
+
+This seems to be pretty different from the double category point of view, as the objects are shared between the tight and loose arrows. One way to think about it would be that the "type of propositions" $A \mapsto A$ is different than the object $A$. But this still doesn't introduce individual morphism within the "type of propositions." Would this additional structure be helpful in representing Mari's ontology?
+
+Are double categories of relations actually a good generalization of representational measurement theory? Can they bring in some of the concerns raised by Mari about the latter?
+
+> Any Basic Evaluation Equation is then interpreted to be a mere identity from an *ontic* point of view, but a significant relation from an *epistemic* point of view.
+

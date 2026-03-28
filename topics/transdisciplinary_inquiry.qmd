@@ -1,0 +1,29 @@
+---
+title: "Transdisciplinary Frameworks, Research, Transformations"
+author: "Brad Venner"
+date: "12/17/2025"
+output: html_document
+---
+"Unity of knowledge" vs "social engagement" transdisciplinarity. [lawrence:2022:characteristics]. Another possibility would be to distinguish "social engagement" as "transdisciplinary action research", which I saw earlier.
+
+The references on "unity of knowledge" do not go back to Neurath and his focus on "orchestration" of the sciences. It would be interesting to compare his understanding of physicalism as multiple units of economic measurement, his visual education project (isotype), and his unity of knowledge work. Gemini responded to my inquiry on "neurath transdisciplinary" that Neurath "foreshadowed modern transdisciplinary thinking".
+
+What is category theory within transdisciplinary research? It is both a subdiscipline within mathematics and unifying framework for thinking about mathematics. Yet through applied category theory, there is a potential for its use as an interdisciplinary framework as it connects to various areas of application. 
+
+CatColab may be thought of as an agenda to extend applied category theory into transdisciplinary research. Collaborative models are an example of a "boundary object" that helps coordinate between participants that are also "epistemic objects" that are directly applicable to academic research. Epistemic objects are the developed in the first phase of a TDR process. 
+
+Phase 2 includes co-generating and using knowledge. Disciplinary work (e.g. a doctoral thesis project) is integrated through interdisciplinary methods. The latter are seen as an essential part of transdisciplinarity. Is there a complementary organization process going on in society or are "social actors" just patiently waiting for their academic research.
+
+Phase 3 is documentation and dissemination. Again, society seems pretty passive here. These phases seem more like a generic research process and it's hard to see what's special about the TDR process. (e.g. plan, do, check). But a link between quality assurance and society is hardly the worst think, as TDR could be thought of as social quality improvement.
+
+Three forms of knowledge: systems, orientation (target), transformation. These could be related to Peirce's scientific method, where orientiation relates to aesthetics, transformation to ethics and systems to logic. A many-to-many relationship between phases and forms. A fourth form of knowledge relates to the TDR process itself, called process knowledge. 
+
+Participatory research
+
+Unity of science
+
+General systems theory
+
+# Organization and tektology
+
+Midgley develops the argument that the somewhat disparate branches of general systems theory, cybernetics and complexity science can be somewhat unified by the "organizational" viewpoint developed in Bogdanov's Tektology

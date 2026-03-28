@@ -1,0 +1,17 @@
+---
+title: "Profunctors as a model of objects and properties"
+author: "Brad Venner"
+date: "8/20/2025"
+output: html_document
+---
+To what extent can profunctors be used to model the object-property relationship used in Mari's metrology. In particular, is there something special about the double category of profunctors in representing object-property duality that is not present in other double categories? 
+
+What about profunctors in enriched categories? Is there something special about enrichment in $Set$ compared to, say, $Bool$. Categories enriched in $Bool$ are posets. Is there still an "interesting" double category here?  
+
+Fibrations and opfibrations are special cases of profunctors. 
+
+The double category of profunctors seems more complex than the double category of spans. The internal profunctor can be developed within the 2-category Span(Set) as described in the Nlab article (internal profunctor)[https://ncatlab.org/nlab/show/internal+profunctor]. 
+
+The construction of an internal profunctor relies upon the categories of elements construction described in (fibrations)[../fibrations.html]. So this continues the virtuous cycle of ideas of presheaf-fibration-profunctor.  
+
+

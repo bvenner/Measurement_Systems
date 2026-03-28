@@ -1,0 +1,12 @@
+---
+title: "Measurement systems and general systemology"
+author: "Brad Venner"
+date: "8/18/2025"
+output: html_document
+---
+
+This note considers the relationship between [[measurement systems]] and [[general systemology]]. General systemology is the term proposed by [[David Rousseau]] and coauthors for the proposed [[transdiscipline]] of general systemology. This proposal formulated general systemology as a [[unity of knowledge]] transdiscipline, a [[Otto Neurath|Neurath]]-like approach.
+
+Rousseau divides general systemology into four fields: philosophy, engineering, science and practice. Gemini drops practice. Aristotle's three branches of knowledge would roughly map to engineering (techne), science (episteme) and practice (phronesis). Mari uses the semiotic divisions of syntax (the measuring system), semantics (object-relatedness, the measurand) and pragmatics (subject-independence, the measurement).
+
+Mari uses the [[semiotic]] transdiscipline as their primary frame on measurement systems. 
