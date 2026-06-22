@@ -26,4 +26,46 @@ General systems theory
 
 # Organization and tektology
 
-Midgley develops the argument that the somewhat disparate branches of general systems theory, cybernetics and complexity science can be somewhat unified by the "organizational" viewpoint developed in Bogdanov's Tektology
+Senalp and Midgley develop the argument that the somewhat disparate branches of general systems theory, cybernetics and complexity science can be somewhat unified by the "organizational" viewpoint developed in Bogdanov's Tektology [@senalp:2022:alexander]. This paper is from the "unity of knowledge" perspective on transdisciplinarity. It builds on E. Tompsett's work on connecting Neurath's *Unity of Science Movement* with the *systems paradigm*. Because of specialized developments in the *systems paradigm*, the unity of this paradigm is important for the larger *unity of science* problem. 
+
+They also identify several authors that have proposed "approaches to systematize or integrate diverse systems perspectives or methodologies". One of these approaches is critical systems theory, but although this embraces multiple systems methodologies it
+
+> has little or nothing to say about \(general systems theory\) GST and other forms of systems theory that not been applied to problem solving in organizational, social and ecological domains.
+
+Senalp and Midgley argue that Bogdanov's tektology already developed the conceptual framework that could unify the *systems paradigm*. Few of the "integration" authors have engaged with Bogdanov's approach. An exception is Michael C Jackson, who also wrote on unifying pragmatism and the *systems paradigm*.
+
+They identify a series of lesser-known authors (often Soviet) that rediscovered Bogdanov and engaged with his work. They argued for it's primacy and considered GST and cybernetics as backwards steps. In particular, Dudley and Poustilnik proposed a research direction in research memorandum developed for  the Centre for Systems Studies at the University of Hull.
+
+They outline three major systems paradigms that developed from the 1950's:
+
+1. An expert-led, quantitiative, objectivity-oriented practice.
+2. A participative, qualitative, intersubjective approach.
+3. A more penetrating critical thinking that embraced context-dependence and methodological pluralism.
+
+Note the paralllels of the first two steps with Mari's object-relatedness and inter-subjective independence characteristic of measurement. 
+
+They suggest that these paradigms were already anticipated by Bodganov.
+
+They outline Bogdanov's theory of organization. Bogdanov took "processes of organization" as the subject matter of the most generalizing science. 
+
+Aside. I'm not sure if Bogdanov commented on the irony of using the root of Aristotle's "organon" as his core idea. The scholastics certainly placed the Organon as the center of their transdisciplinary knowledge framework, so is Bogdanov proposing a "scientific organon"? This is one advantage of unifying semiotics and techtology in that Peirce's attention to scholastic developments can rescue some developments from this previous edifice. Bogdanov emphasizes the processual side of the relational-processual framework with systems on the relational side.
+
+They emphasize the importance of "monism" in Bogdanov's development and highlight a long sequence of monist thinkers. Haeckel, founder of the German Monist League in 1906, was the first to coin the term "tektology". Bogdanov's empiriomonism was an attempt to bridge Marx's materialist monism with the neutral monism of Avenarious, Mach and others. Neutral monism posits a third "neutral substance" between mind and matter. My understanding is that Peirce's thirdness should be understood as an emergent level of organization similar to a higher-level category in category theory. 
+
+Neurath's "Unity of Science" effort was explicitly pluralist and to some extent rejected the monist movement. They quote Neurath:
+
+> One can say that, from the point of view of scientific empiricism, it is not the notion of ‘system’, but that of ‘encyclopedia’ that offers us the true model of science taken as a whole (Neurath, An International Encyclopedia of Unified Science, 1936)
+
+They claim that logical-empiricism was an outgrowth of Russels "analytical, pluralist and logically- and mathematically-grounded scientific philosophy" and term the whole movement "neo-positivism"
+
+The Frankfurt School developed a strong response to the "deterministic, atomistic and reductionist programme of positivism and physicalism offered by the analytic philosophers." These superceded the older distinctions between monists and neo-Kantians. Tektology was a discussion in reaction to this previous debate which combined with Lenin's political repression to "doom" the effort.
+
+Stopped reading at the proposed reseach agenda. Pick this back up.
+
+# Misc
+
+*category theory as mathematical tektology*
+
+*relation and organization* might be a good title to synthesize semiotics and tektology. I could build from Poinsot's analysis of the sign as relation and then argue that tektology adds the "processual" side to the "relational-processual" viewpoint (or processual relationalism).  
+
+It seems better to adopt the term "transdisciplinary action research" to focus on the pragmatic side of transdisciplinary research and not fight over what is the "true" definition. It also could be more appealing to "activists" (lure them in with *action*).

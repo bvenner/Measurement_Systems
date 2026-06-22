@@ -5,6 +5,8 @@ date: "8/18/2025"
 output: html_document
 ---
 
+# Introduction
+
 One of the basic assumptions of metrology as developed in the VIM is
 
 > that there exist properties of given objects, where a property is either quantitative, like mass, or non-quantitative, like shape (VIM4, p. 4)
@@ -19,6 +21,8 @@ Because Mari defines a property as a mode of interaction with the world, the not
 
 Mari claims that properties include both classically-defined attributes and relations.
 
+# Objects and properties as space and quantity
+
 Peirce's development of the notion of proposition has some resemblance to the object-property duality. A proposition has two parts and is a carrier of fact. But a proposition is considered as a particular form of a sign where the "interpretant" is not specified in the sign-vehicle. The "object" of a sign is considerably more broad than the metrological definition and can consist of practically anything, but is distinguished from a "property" by the use of an index.   
 
 Lawvere's article "Categories of Space and Quantity" discusses modeling spaces as "distributive categories" and quantities as "linear categories". Lawvere's writing is highly suggestive but extremely frustrating. This paper should be considered a "classic" in "formal metrology".
@@ -27,7 +31,7 @@ Spaces have
 
 > two main general conceptual features: first they serve as an arena for "becoming" (there are spaces of states as well as spaces of locations) and secondly they serve as domains for variable quantity.
 
-These two ideas both touch on the notion of substance. The "first" feature is reminiscent of potentiality where "becoming" the realization of actuality. The "second" feature is more like the notion of "object" discussed above, where "variable quantity" is a "property".
+These two ideas both touch on the notion of substance. The "first" feature is reminiscent of potentiality where "becoming" is the realization of actuality. The "second" feature is more like the notion of "object" discussed above, where "variable quantity" is a "property".
 
 Lawvere defines 
 
@@ -39,7 +43,9 @@ Lawvere draws out the practical relevance of the properties of covariance and co
 
 This notion of the "object" being something like an index to a region of space-time is similar to Peirce's idea.
 
-Lawvere's discussion of intensive quantities seems considerably more opaque. Because of this, I did a forward search on SemanticScholar to see if anyone had expanded on this section. I did find Reyes et. al.''s paper on *Count nouns, mass nouns and their transformations: a unified category-theoretic semantics* as "highly influenced" by Lawvere's paper. The category of "count nouns" is modeled by $\mathcal{Set}$ and the category of "mass nouns" is modeled by the category of sup-lattices, which is a linear category. Reyes says that the functors between these categories are adjoint. I don't understand Lawvere's paper, but Anders Koch does model extensive quantities as commutative monads, which may be related to such an adjunction.
+Lawvere's discussion of intensive quantities seems considerably more opaque. Because of this, I did a forward search on SemanticScholar to see if anyone had expanded on this section. I did find Reyes et. al.''s paper on *Count nouns, mass nouns and their transformations: a unified category-theoretic semantics* as "highly influenced" by Lawvere's paper. The category of "count nouns" is modeled by $\mathcal{Set}$ and the category of "mass nouns" is modeled by the category of sup-lattices, which is a linear category. Reyes says that the functors between these categories are adjoint. 
+
+Anders Koch models extensive quantities as commutative monads, which may be related to such an adjunction. Reference?
 
 Lawvere discusses the "action" of intensive quantities on extensive quantities that can result in another extensive quantity. The example is a "volume" extensive quantity multiplied by a "density" intensive quantity (mass/volume) to give another extensive quantity of "mass."
 

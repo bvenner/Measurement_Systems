@@ -1,0 +1,16 @@
+---
+title: "Compositional Data Analysis"
+author: "Brad Venner"
+date: "4/21/2026"
+output: html_document
+---
+
+Compositional data are quite common in applications and one goal of this course would be to develop this side of metrology, which is somewhat neglected by physics. The notion of "composition" is intrinsically related to mereology, while the notion of "data" brings to mind an essentialist understanding of substance, as compositions are often understood as "fundamental" entities such as atoms, molecules, etc. 
+
+On a more practical side, compositional data is very common in applications. In particular, "mass noun" science considers compositions as subobjects of extended bodies, such as geology or chemistry, but where there are "fundamental components" that are only transformed outside of the domain of application (i.e. geology only considers chemistry and chemistry only considers "classical" atoms). Biology is a special case in that cells introduce a discreteness and the human sciences have an essential discreteness such that a "composition" seems like a reduction of agency.
+
+The use of the "additive logratio" was introduced by Aitchison in early papers. As the name implies, this is the log of the ratio of two "components". This involves identifying a "reference part" and that all other ratios are related to this reference part. 
+
+This reminds me of Marx's analysis of the commodity and one way to think of economic data is as collection of commodities (properties) owned by "agents", with prices being the "additive ratios". In geochemistry, the reference value is silica, and with commodities it was gold. But a big difference between a composition and a commodity bundle is that the former are all measured on the same property (i.e. the mass or number of each component) while the latter are different types and do not necessarily have a meaningful common property. Marx developed the labor theory of value  
+
+Sub-compositional dominance is based on the relationship between "cases", i.e. the rows in a compositional matrix where each row is a separate "measurement". The idea is that "distances" between "cases" should not increase if one or more columns ("components") are eliminated. Aitchison identified this as a fundamental property, but it only holds when distances are defined as the sum of the components. When distances are defined as averages then this property does not hold, so it may not be a fundamental property.   

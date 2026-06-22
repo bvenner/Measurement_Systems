@@ -1,0 +1,10 @@
+---
+title: "Emergent property"
+author: "Brad Venner"
+date: "4/21/2026"
+output: html_document
+---
+
+The concept of "emergent property" depends strongly upon both mereology - what is the relationship between part and whole - and also the concept of property - what is the relationship between objects and properties. So I should finish these entries before writing this entry.
+
+The idea that a "relation" has a "property" is a bit of an Aristotelian category error. But one way to think of this is as a hypostatic abstraction, where an observable behavior in a relationship context is abstracted to the "relation" having a "property". This induces the notion of a relation as an object that can have properties.

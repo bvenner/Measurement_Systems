@@ -5,8 +5,47 @@ date: "3/10/2026"
 output: html_document
 ---
 
+# Introduction
+
 In the context of measurement science, transduction is the transformation of a more difficult to observe property into a form that can be observed and measured using a measuring instrument. For example, a thermometer (a measuring instrument) transduces the temperature of one substance (a measurand, a combination of object and property) into a change in the height (an observable property) of a liquid (a different substance) in a column. The change in substance is critical, as the first "substance" may not have the property of expansion that the second substance has. 
 
 A change in substance is not essential. In analytical chemistry, the measurand is often an "amount of substance". Whether this is a property is a subtle problem and points to difficulties with an object-property ontology. (It's tempting to use lithium as an example, since Peirce did). An atom is a system, with a defined boundary, and is composed of "components", which are also systems. But at some level, it is also an individual. Amount of substance understands a continuous body as a collection of typed individuals. In this manner, lithium is an example of a "natural kind" as defined by Reyes, who in a separate paper also defined an adjunction between mass nouns and count nouns. 
 
-One way around this connundrum is to define an "essential property". Thus, a "lithium atom" is an individual atom with the essential property of being a lithium atom. 
+One way around this conundrum is to define an "essential property". Thus, a "lithium atom" is an individual atom with the essential property of being a lithium atom. 
+
+# Modeling transduction in double type theory
+
+One pathway to formalization is the use of (double type theory)[https://next.catcolab.org/dev/rust/catlog/dbl/theory]. This approach is being implemented in CatColab, so there is a vehicle from moving to a computational implementation. 
+
+| Associated type| Double theory      | Double category   | Interpreted as |
+|----------------|--------------------|-------------------|----------------|
+| ObType         | Object type        | Object            | Set            |
+| MorType        | Morphism type      | Proarrow          | Span           |
+| ObOp           | Object operation   | Arrow             | Function       |
+| MorOp          | Morphism operation | Cell              | Map of spans   |
+
+My preliminary take in this mapping would be that a measurand is a morphism type, and transduction is a morphism operation. This means generalizing the notion of a measurand as a relationship between an object and a property to a relationship between a "generalized space" and a "generalized quantity". The morphism operation of transduction then plays the role of "measuring instrument" that maps between the "less observable" quantity and the "more observable" one. Since morphism operations may compose, this may allow for a transduction between the "more observable" property and the cognitive representation of the measurand as a "value". Composition of the morphism operation satisfies the desirable property that the "cognitive measurand" is a representation of the physical measurand, and to some extent the dependence on the "instrumental measurand" can be ignored.
+
+One advantage of this model is that the relationships between objects in the "generalized space" as a representable functor reside is a presheaf space, which comes with a notion of "mereology". Since the internal logic of a presheaf category is a higher-order intuitionistic logic, which is the logic of "parts and wholes", this allows for a certain understanding of "essential property" that relates to the "parthood" of an object in a generalized space. Since this involves treating the "generalized quantity" as the unit, this serves as an "omniscient" narrator that can inspect the "generalized space" and determine the "essential properties" of objects in that space.
+
+Another advantage of this framework is that it can be extended to enriched categories through the notion of Isbell duality. 
+
+Another advantage is that this can be interpreted as a generalization of the representational theory of measurement in that profunctors are a generalization of relations, which was developed as the basis of measurement theory by Suppes and others. In fact, it would be a good exercise to show how the representational theory of measurement can be embedded in this framework. 
+
+An open question is to what extent is this intepretation consistent with Lawvere's work on categories in physics, and secondarily to Reyes' work on the logic of natural kinds. This is also the problem of "intrinsic" and "extrinsic" properties introduced by Lawvere.
+
+Another question is whether this proposed embedding drags too much mathematics into the theory. In other words, 
+
+# Modeling transduction using Djikstra monads
+
+# Plan-Do-Check-Act
+
+This section should be moved to the validation and verification document, but since I have not synced it I'll write it here while I'm thinking about it.
+
+"Plan" and "Do" can correspond to the specification and implementation of the system under the Curry-Howard correspondence. A "Plan" is a type, considered as a specification of the system. This can be expanded to the notion of a type as a theory, as developed by Goguen. "Do" is an implementation of a specification, which is a proof of a theory under Curry-Howard. 
+
+"Check" is the process of verifying that the implementation satisfies the specification. Under strict Curry-Howard, this is redundant, since a proof is isomorphic to a program.
+
+Pierce's *Software Foundations* discusses the Curry-Howard correspondence under the title of (*Proof Objects*)[https://softwarefoundations.cis.upenn.edu/lf-current/ProofObjects.html]. In this framework, programs and proofs are "almost" the same thing. The "almost" refers to the notion that this relation is a "correspondence", which is weaker than an isomorphism. Pierce develops the notion functorially: trees of evidence correspond to "proofs" of objects and tree transformations correspond to "proofs" of morphisms. This notion of "truth" as "evidence" draws from intuitionistic type theory. 
+
+"Act" is the process of using the system, which is a process of computation. 

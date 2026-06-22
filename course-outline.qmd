@@ -1,5 +1,5 @@
 ---
-title: "Measurement Systems: Science, Theory, Engineering"
+title: "Measurement Systems: Science, Philosophy, Engineering"
 author: "Brad Venner"
 date: "05/23/2023"
 output: html_document
@@ -7,7 +7,7 @@ output: html_document
 
 # Design
 
-A 16 week semester with 3 lectures per week gives 48 total lectures. At some point, each lecture should introduce a key concept or problem in measurement. An introductory course, paticularly one focused on developing a trans-disciplinary approach to measurement, can only scratch the surface of the subject. On the other hand, the course should emphasize the basics so that students leave with the confidence to design/improve measurement systems. I think this means that practical subject such as measurement systems analysis and validation should be included. Obviously the VIM provides a list of concepts.
+A 16 week semester with 3 lectures per week gives 48 total lectures. At some point, each lecture should introduce a key concept or problem in measurement. An introductory course, particularly one focused on developing a trans-disciplinary approach to measurement, can only scratch the surface of the subject. On the other hand, the course should emphasize the basics so that students leave with the confidence to design/improve measurement systems. I think this means that practical subject such as measurement systems analysis and validation should be included. Obviously the VIM provides a list of concepts.
 
 Potential textbook: Measurement Across the Sciences. This book focuses on a conceptual understanding of measurement (aka philosophy of measurement) as they might be realized in physical and social measurements. Mari's two co-authors are educational measurement specialists. The last chapter on semiotics of measurement could serve as an outline for the course. The question is whether this is a good design or not. Because semiotics can seem so vague, does it make sense to only bring it up at the end. On the other hand, much of the discussion in the book around properties could be interpreted using Peirce's understanding of a proposition. This made me think about Stjernfelt's analysis of natural propositions.
 

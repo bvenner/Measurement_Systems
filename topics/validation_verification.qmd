@@ -1,0 +1,23 @@
+---
+title: "Validation and Verification"
+author: "Brad Venner"
+date: "4/13/2026"
+output: html_document
+---
+
+# Introduction
+
+Validation and verification are a minor topic in Mari et. al. There is extensive discussion of validation within Section 4.3 *The Concept of Validity in Psychosocial Measurement*, which is an important chapter in trying to extend VIM-based metrology to the human sciences. But the book does not specifically discuss validation and verification in relationship to it's ideas about specification and process.
+
+# VIM approach
+
+The VIM defines "verification" as 
+
+> provision of objective evidence that a given item fulfils specified requirements
+
+Unlike much of the VIM (to it's credit), this definition rests upon several terms that are not defined elsewhere: objective evidence, specified requirements, given item. An item is defined in Note 2 as a non-exhaustive list as "a process, measurement procedure, material, compound, or measuring system".
+
+VIM defines validation as a verification with the special property that "the specified requirements are adequate for an intended use."   
+
+# Software engineering
+
